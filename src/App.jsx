@@ -7,7 +7,7 @@ const App = () => {
   const { allItems, setItems } = UseCartContext();
   useEffect(() => {
     setItems();
-  });
+  }, []);
   // useEffect(() => {
   //   console.log(allItems);
   // });
